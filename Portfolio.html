@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="./js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>porto</title>
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="img/preloader.gif" alt="preloader" />
+    </div>
+    <button class="navbtn">
+      <i class="fas fa-align-justify"></i>
+    </button>
+    <div class="nav-bar">
+      <ul class="text-center">
+        <a href="home.html">
+          <li>
+            <div class="nav-bar-link-icon">
+              <i class="fa fa-home fa-3x"></i>
+            </div>
+            <div class="nav-bar-link">Home</div>
+          </li>
+        </a>
+        <a href="about.html">
+          <li>
+            <div class="nav-bar-link-icon">
+              <i class="fas fa-user fa-3x"></i>
+            </div>
+            <div class="nav-bar-link">About</div>
+          </li>
+        </a>
+        <a href="Portfolio.html">
+          <li>
+            <div class="nav-bar-link-icon">
+              <i class="far fa-eye fa-3x"></i>
+            </div>
+            <div class="nav-bar-link">Portfolio</div>
+          </li>
+        </a>
+
+        <a href="contact.html">
+          <li>
+            <div class="nav-bar-link-icon">
+              <i class="fas fa-envelope fa-3x"></i>
+            </div>
+            <div class="nav-bar-link">Contact</div>
+          </li>
+        </a>
+      </ul>
+    </div>
+    <!-- navbar   .... -->
+    <div class="settings-box">
+      <div class="toggle-setting">
+        <i class="fas fa-cog icon 5x" id="icon"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>colors</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#E91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#04a9f4"></li>
+            <li data-color="#4cAF50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Dark Mode</h4>
+          <div class="Dark-Mode">
+            <span
+              class="yes"
+              data-color="#fff"
+              data-colorr="#000"
+              data-background="yes"
+              >Yes</span
+            >
+            <span class="active no" data-background="no">No</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <h1>MY PORTFOLIO</h1>
+    </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="cont">
+          <div class="overlay">
+            <h1>Enginner-site</h1>
+            <h4>html</h4>
+            <h4>css</h4>
+            <h4>bootstrap</h4>
+            <h4>responsive</h4>
+          </div>
+          <img src="./img/en.png" alt="" />
+        </div>
+        <a target="_blank" href="https://abbdelrahman11.github.io/Enginner-app/"
+          ><button>Demo</button></a
+        >
+      </div>
+      <div class="item">
+        <div class="cont">
+          <div class="overlay">
+            <h1>movie-app</h1>
+            <h4>react js</h4>
+            <h4>react router</h4>
+            <h4>react-fontawesome</h4>
+            <h4>not responsive</h4>
+          </div>
+          <img src="./img/m.png" alt="" />
+        </div>
+        <a target="_blank" href="https://movie-app12.000webhostapp.com/"
+          ><button>Demo</button></a
+        >
+      </div>
+      <div class="item">
+        <div class="cont">
+          <div class="overlay">
+            <h1>Resturant</h1>
+            <h4>html</h4>
+            <h4>css</h4>
+            <h4>responsive</h4>
+          </div>
+          <img src="./img/r.png" alt="" />
+        </div>
+        <a target="_blank" href="https://abbdelrahman11.github.io/Resturant-/"
+          ><button>Demo</button></a
+        >
+      </div>
+      <div class="item">
+        <div class="cont">
+          <div class="overlay">
+            <h1>smart-watch-app</h1>
+            <h4>react js</h4>
+            <h4>react router</h4>
+            <h4>not responsive</h4>
+          </div>
+          <img src="./img/s.png" alt="" />
+        </div>
+        <a target="_blank" href="https://smart-watch-app1.firebaseapp.com/"
+          ><button>Demo</button></a
+        >
+      </div>
+      <div class="item">
+        <div class="cont">
+          <div class="overlay">
+            <h1>weather-app</h1>
+            <h4>react js</h4>
+          </div>
+          <img src="./img/w.png" alt="" />
+        </div>
+        <a target="_blank" href="https://weather-app-fb9ee.firebaseapp.com/"
+          ><button>Demo</button></a
+        >
+      </div>
+    </div>
+    <script src="./js/style.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
