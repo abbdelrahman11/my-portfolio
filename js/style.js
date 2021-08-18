@@ -6,7 +6,7 @@ window.addEventListener("load", () =>
 let maincolor = localStorage.getItem("color-option");
 
 if (maincolor !== null) {
-  console.log(localStorage.getItem("color-option"));
+  
 
   document.documentElement.style.setProperty("--main-color", maincolor);
 
@@ -23,7 +23,7 @@ if (maincolor !== null) {
 //setting box
 
 document.querySelector(".navbtn").onclick = function () {
-  console.log("ddcc");
+  
   document.querySelector(".nav-bar").classList.toggle("open-nav");
 };
 
