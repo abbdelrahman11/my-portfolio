@@ -110,7 +110,7 @@ body.dark .home {
   color: var(--white-color);
 }
 .home .home-info {
-  padding-top: 8rem;
+  padding-top: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,6 +120,8 @@ body.dark .home {
   border: solid 5px var(--main-color);
   overflow: hidden;
   border-radius: 50%;
+  height: 240px;
+  width: 240px;
 }
 .home .home-info .img img {
   width: 100%;
@@ -143,6 +145,7 @@ body.dark .home {
     border: none;
     border-radius: 10px;
     text-align: center;
+    width: inherit;
   }
   .home .home-info .img img {
     height: 200px;

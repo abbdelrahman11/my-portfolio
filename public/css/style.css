@@ -250,6 +250,8 @@ body.dark {
 }
 .intro .first h2 {
   color: var(--main-color);
+  font-weight: bold;
+  font-size: 3rem;
 }
 .intro .sub-heading::before {
   content: "";
@@ -601,7 +603,7 @@ body.dark .header {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 20px;
   outline: none;
 }
@@ -617,6 +619,7 @@ body.dark .header {
   opacity: 0;
   width: 100%;
   transition: all 0.4s ease-in-out;
+  border-radius: 10px;
 }
 .item:hover .overlay {
   height: 77%;
@@ -629,6 +632,9 @@ body.dark .header {
 }
 .overlay h1 {
   color: #fff;
+}
+.portofolio-img {
+  border-radius: 10px;
 }
 body.dark .item button {
   background-color: #000;
